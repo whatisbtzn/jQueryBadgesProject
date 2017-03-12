@@ -1,7 +1,7 @@
 $(function() {
   
   $.ajax({
-    url: 'https://www.codeschool.com/users/185856.json',
+    url: 'https://www.codeschool.com/users/whatisbtzn.json',
     dataType: 'jsonp',
     success: function(response) {
       addCourses(response.courses.completed);
